@@ -1,0 +1,11 @@
+__pycache__/
+**/tempCodeRunnerFile.py
+# Virtual environment
+env/
+# Results
+results/
+cache/
+# Json files
+*.json
+# graphs
+*.graphml
