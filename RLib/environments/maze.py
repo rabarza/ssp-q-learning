@@ -233,25 +233,25 @@ class Maze:
         for row in range(rows):
             for col in range(cols):
                 if self.maze[row, col] == -100:
-                    rect = Rectangle((col, rows - row - 1), 1, 1, facecolor="black")
+                    rect = Rectangle((col, row), 1, 1, facecolor="black")
                     ax.add_patch(rect)
 
         # Dibujar el camino
         if path:
             for cell in path:
                 path_rect = Rectangle(
-                    (cell[1], rows - cell[0] - 1), 1, 1, facecolor="palegreen"
+                    (cell[1], cell[0]), 1, 1, facecolor="palegreen"
                 )
                 ax.add_patch(path_rect)
 
         # Dibujar el punto de inicio
         start_row, start_col = start_point
-        start_rect = Rectangle((start_col, rows - start_row - 1), 1, 1, facecolor="red")
+        start_rect = Rectangle((start_col, start_row), 1, 1, facecolor="red")
         ax.add_patch(start_rect)
 
         # Dibujar la meta
         end_row, end_col = end_point
-        end_rect = Rectangle((end_col, rows - end_row - 1), 1, 1, facecolor="lime")
+        end_rect = Rectangle((end_col, end_row), 1, 1, facecolor="lime")
         ax.add_patch(end_rect)
 
         # Mostrar la figura
