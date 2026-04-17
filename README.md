@@ -129,4 +129,6 @@ Los resultados de los experimentos se almacenan en la carpeta `results/`. Estos 
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Copyright (C) 2025 Rolando Ignacio Jesús Abarza Cancino
+
+Este proyecto está bajo la Licencia GNU General Public License v3.0 (GPL-3.0). Esto significa que puedes usar, modificar y redistribuir el código libremente, siempre que cualquier trabajo derivado se distribuya bajo la misma licencia y mantenga el aviso de copyright. Consulta el archivo `LICENSE` para el texto completo.
